@@ -10,6 +10,9 @@
   </head>
 
   <body>
+    <%= render partial: 'users/shared/menu_bar'  %>
+    <p class='alert'><%= alert %></p>
+    <p class='notice'><%= notice %></p>
     <%= yield %>
   </body>
 </html>
